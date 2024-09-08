@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.fondo_globos{
+    background-image: url(../img/globos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    text-align: center;
+}
+#principio{
+    transform: translateY(0%);
+}
+.btn{
+    text-align: center;
+}
+#iniciar{
+    padding: 10px;
+    font-size: 16px;
+    margin-top:450px;
+    background-color: transparent;
+}
+.bombilla{
+    background-color: white;
+    width: 100px;
+}
